@@ -1,0 +1,75 @@
+@font-face {
+    font-family: 'Raleway';
+    font-weight: normal;
+    src: url("fonts/raleway-regular-webfont.woff2") format('woff2'),
+}
+
+@font-face {
+    font-family: 'Raleway-Bold';
+    font-weight: normal;
+    src: url("fonts/Raleway-Black.woff2") format('woff2'),
+}
+
+*{
+    font-family: 'Raleway';
+}
+
+html, body{
+    max-width: 480px;
+    margin: 0px;
+}
+
+.blue-thing{
+    display: flex;
+    padding: 1px;
+    text-align: center;
+    color: white;
+    background-color: #1B8AE1;
+}
+
+.blue-thing h1 {
+    margin-left: 190px;
+}
+
+.blue-thing img{
+    width: 3em;
+    margin-left: 110px;
+}
+
+.colour{
+    width: 10px;
+    color: transparent;
+    margin: 0px;
+}
+
+.message{
+    display: flex;
+}
+
+.message-content{
+    padding-left: 20px;
+}
+
+.message-header{
+    display: flex;
+    justify-content: space-between
+}
+
+.name{
+    display: flex;
+}
+
+.name img{
+    margin-left: 10px;
+}
+
+.time{
+    font-weight: bold;
+    color: #1B8AE1;
+    font-size: 1.3em;
+}
+
+.text{
+    margin-top: 3px;
+    color: rgb(160, 160, 160);
+}

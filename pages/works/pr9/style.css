@@ -1,0 +1,115 @@
+@font-face {
+    font-family: 'RFDewi';
+    font-weight: normal;
+    src: url("../../../fonts/RF/RFDewiExtended-Light.woff2") format('woff2'),
+}
+
+@font-face {
+    font-family: 'RFDewi';
+    font-weight: bold;
+    src: url("../../../fonts/RF/RFDewiExtended-Black.woff2") format('woff2'),
+}
+
+ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+li {
+    display: inline-block;   
+    background-color: rgb(255, 140, 140);
+    padding: 10px;
+    margin-right: 20px;
+}
+
+.links a{
+    display: block;
+    background-color: rgb(83, 83, 255);
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    margin-right: 20px;
+    width: 400px;
+    margin-bottom: 10px;
+}
+
+.blocks{
+    margin: 10px;
+}
+
+.blocks div {
+    display: inline-block; 
+    background-color: rgb(255, 77, 77);
+    padding: 10px;
+    margin-right: 20px;
+}
+
+div.non {
+    display: none;
+}
+
+.non {
+	display: none;
+}
+
+.links-markers a {
+    display: list-item;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    margin-right: 20px;
+    width: 400px;
+}
+
+.image {
+    width: 114px;
+    height: 94px;
+    background-image: url('media/weather-sun.jpg') ;
+    border-style: dotted;
+    border-color: rgb(255, 77, 77);
+}
+
+.post1, .post2 {
+    background-color: #930303;
+    color: white;
+}
+
+.post1 .image {
+    float: left;
+    margin: 2px;
+    margin-right: 20px;
+}
+
+.post2 .image {
+    float: right;
+    margin: 2px;
+    margin-left: 20px;
+}
+
+.w_container {
+    display: flex;
+  }
+  
+  .weather-container {
+    width: 11.11%;
+    background-color: #ffffff; /* бирюзовый цвет */
+    padding: 10px;
+    box-sizing: border-box;
+  }
+  
+  .date-header {
+    color: white;
+    background-color: #40e0d0; /* бирюзовый цвет */
+    padding: 1px;
+    text-align: center;
+  }
+  
+  .weather-image {
+    width: 100%;
+  }
+  
+  .temperature {
+    font-size: 2em;
+    font-weight: bold;
+    text-align: center;
+  }

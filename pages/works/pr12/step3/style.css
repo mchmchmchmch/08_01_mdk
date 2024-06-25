@@ -1,0 +1,61 @@
+@font-face {
+  font-family: "RFDewi";
+  font-weight: normal;
+  src: url("../../../../fonts/RF/RFDewiExtended-Bold.woff2") format("woff2");
+}
+
+* {
+  margin: 1;
+}
+
+body {
+  font-family: "RFDewi";
+  font-size: 16px;
+  margin: 0;
+}
+h2 {
+  font-size: 2em;
+}
+h3 {
+  font-size: 1.5em;
+  margin: 10px 0;
+}
+
+header {
+  background: rgb(128, 201, 61);
+  text-align: center;
+  padding: 10px 0;
+  margin-bottom: 40px;
+}
+
+.img {
+  background: rgb(255, 45, 108);
+  width: 100%;
+  height: 200px;
+}
+button {
+  font-family: "RFDewi";
+  background: rgb(255, 45, 108);
+  color: white;
+  border: 2px solid rgb(255, 45, 108);
+  padding: 10px;
+  border-radius: 10px;
+  margin: 10px 0;
+}
+button:hover {
+  background: white;
+  color: rgb(255, 99, 99);
+  border: 2px solid rgb(255, 99, 99);
+  cursor: pointer;
+}
+
+section {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+article {
+  width: 480px;
+}

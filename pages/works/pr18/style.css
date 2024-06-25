@@ -1,0 +1,63 @@
+@font-face {
+    font-family: 'RFDewi';
+    font-weight: normal;
+    src: url("/fonts/RF/RFDewiExtended-Light.woff2") format('woff2'),
+}
+
+@font-face {
+    font-family: 'RFDewi';
+    font-weight: bold;
+    src: url("/fonts/RF/RFDewiExtended-Black.woff2") format('woff2'),
+}
+
+*{
+    font-family: 'RFDewi';
+}
+
+body{
+    background-color: rgb(226, 231, 236);
+}
+
+.comment-container{
+    width: 1220px;
+    display: flex;
+    justify-content: space-between
+}
+
+.star{
+    width: 16px;
+}
+.pfp-name-stars{
+    display: flex;
+}
+.name-stars{
+    margin-top: 20px;
+}
+
+.comment{
+    background-color: white;
+    width: 400px;
+    border-radius: 6px;
+    box-shadow: 0px 0px 20px rgb(214, 219, 224);
+}
+
+.link-business{
+    margin-top: 40px;
+}
+
+.comment-content{
+    padding: 30px;
+}
+
+.link{
+    color: rgb(31, 138, 170);
+}
+
+.category{
+    margin-top: 5px;
+}
+
+.razdel{
+    color: rgb(31, 138, 170);
+    font-weight: bolder;
+}

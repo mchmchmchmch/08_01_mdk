@@ -1,0 +1,60 @@
+@font-face {
+    font-family: 'RFDewi';
+    font-weight: normal;
+    src: url("../../../fonts/RF/RFDewiExpanded-Semibold.woff2") format('woff2'),
+}
+
+@font-face {
+    font-family: 'RFDewi2';
+    font-weight: normal;
+    src: url("../../../fonts/RF/RFDewiExpanded-Black.woff2") format('woff2'),
+}
+
+.container {  display: grid;
+    grid-template-columns: 0.5fr 0.5fr 0.5fr;
+    grid-template-rows: 3.4fr 0.5fr 3fr;
+    gap: 0px 42px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "dog img img2"
+      "dog text1 text1"
+      "dog img3 img4";
+    width: 1024px;
+    height: 642px;
+    margin: 0 auto;
+    padding-right: 315px;
+    font-family: 'RFDewi';
+  }
+
+  h1 {
+    text-align: center;
+    margin-bottom: 100px;
+    margin-top: 50px;
+    font-family: 'RFDewi2';
+  }
+  
+  .dog {  display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      ". . ."
+      ". . ."
+      ". . .";
+    grid-area: dog;
+  }
+  
+  .text1 { 
+    margin-bottom: 33px;
+    grid-area: text1; 
+}
+  
+  .img { grid-area: img; }
+  
+  .img2 { grid-area: img2; }
+  
+  .img3 { grid-area: img3; }
+  
+  .img4 { grid-area: img4; }
+  
